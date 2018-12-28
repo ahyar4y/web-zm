@@ -1,2 +1,2 @@
 # web-zm
-zahirul ma'ala brand new website ^.^
+This is a website project for a muslim organization in president university, indonesia
