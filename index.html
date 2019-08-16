@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Zahirul Ma'ala President University</title>
+		<link rel="icon" types="image/png" href="images/logo100.png">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div id="loader-wrapper">
+			<img src="images/logo.png" id="load-logo">
+			<div id="loader"></div>
+			<div class="loader-section section-left"></div>
+    		<div class="loader-section section-right"></div>
+		</div>
+		
+		<header>	
+		</header>
+		
+		<h1 id="welcome-msg">Zahirul Ma'ala 2019</h1>
+		<h1 id="mt"> Sorry, we are under maintenance :(</h1>
+		<h2 id="mt">While waiting for our new website, why don't you take a look at our Instagram? ^.^</h2>
+
+		<!--<div class="welcome-img">
+		</div>-->
+		<div id="insta-wrap">
+		<div id="instafeed"></div>
+		</div>
+
+		<script src="js/instafeed.min.js"></script>
+		<script type="text/javascript">
+				var userFeed = new Instafeed({
+					get: 'user',
+					userId: '964397842',
+					accessToken: '964397842.2528111.1aa59c6c98d1403f9408d3c1c88da0ee',
+					//limit: 50,
+					//resolution: 'standard_resolution',
+					//sortBy: 'most-recent',
+					template: '<a href="{{link}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a>',
+				});
+				userFeed.run();
+		</script>
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
